@@ -84,7 +84,7 @@ const modalStyles = `
   border-radius: 5px;
   max-width: 1122px;
   background-color: white;
-  padding: 20px; /* Add padding to prevent button overflow */
+  padding: 6px; /* 70% of the original padding (20px * 0.3) */
   box-sizing: border-box; /* Ensure padding is included in total width */
 }
 .test-modal-content img {
@@ -92,14 +92,14 @@ const modalStyles = `
   width: 500px; /* Image width */
   height: 500px;
   object-fit: contain;
-  background-color: white; /* Change to a non-transparent color */
+  background-color: #4462f900;
 }
 .test-modal-actions {
   display: flex;
   flex-direction: column; /* Align buttons vertically */
   justify-content: center;
   align-items: center;
-  padding: 18px 0; /* Reduced padding by 50% */
+  padding: 10.8px 0; /* 70% of the original padding (36px * 0.3) */
   column-gap: 15px;
   background-color: white;
 }
@@ -116,7 +116,7 @@ const modalStyles = `
   width: 450px; /* 90% of the image width */
   height: 76.5px; /* 1.5 times the original height (51px * 1.5) */
   font-size: 31.5px; /* 1.5 times the original font size (21px * 1.5) */
-  margin-bottom: 10px; /* Space between buttons */
+  margin-bottom: 3px; /* 70% of the original margin (10px * 0.3) */
 }
 .test-modal-button.blue {
   background-color: #4461f9;
@@ -138,13 +138,13 @@ const modalStyles = `
     height: 300px;
   }
   .test-modal-actions {
-    padding: 9px 0; /* Reduced padding by 50% for smaller screens */
+    padding: 5.4px 0; /* 70% of the original padding (18px * 0.3) */
   }
   .test-modal-button {
     width: 270px; /* 90% of the image width for smaller screens */
-    height: 60px; /* Adjusted height (40px * 1.5) */
+    height: 42px; /* Adjusted height (60px * 0.7) */
     word-break: keep-all;
-    font-size: 18px; /* Adjusted font size (12px * 1.5) */
+    font-size: 12.6px; /* Adjusted font size (18px * 0.7) */
   }
 }
 `;
@@ -156,7 +156,7 @@ document['head'][_0x4b0117(0x1d1)](styleElement);
 document[_0x4b0117(0x1d7)](_0x4b0117(0x1da), function () {
     const _0x1e9c3a = _0x4b0117;
     var _0x31292e = document[_0x1e9c3a(0x1db)](_0x1e9c3a(0x1cd));
-    _0x31292e['src'] = 'https://imgur.com/rt36RQx.png'', _0x31292e[_0x1e9c3a(0x1dc)] = '로고', _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
+    _0x31292e['src'] = 'https://imgur.com/rt36RQx.png', _0x31292e[_0x1e9c3a(0x1dc)] = '로고', _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
     var _0x13c5c5 = document[_0x1e9c3a(0x1d3)]('.test-modal-content');
     _0x13c5c5 && _0x13c5c5[_0x1e9c3a(0x1d1)](_0x31292e);
 });
