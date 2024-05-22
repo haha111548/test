@@ -84,6 +84,8 @@ const modalStyles = `
   border-radius: 5px;
   max-width: 1122px;
   background-color: white;
+  padding: 20px; /* Add padding to prevent button overflow */
+  box-sizing: border-box; /* Ensure padding is included in total width */
 }
 .test-modal-content img {
   display: block;
@@ -111,7 +113,7 @@ const modalStyles = `
   font-weight: 600;
   text-align: center;
   border-radius: 5px;
-  width: calc(100% - 10px); /* Width of popup - 10px */
+  width: calc(100% - 40px); /* Width of container - padding */
   height: 76.5px; /* 1.5 times the original height (51px * 1.5) */
   font-size: 31.5px; /* 1.5 times the original font size (21px * 1.5) */
   margin-bottom: 10px; /* Space between buttons */
@@ -139,7 +141,7 @@ const modalStyles = `
     padding: 18px 0;
   }
   .test-modal-button {
-    width: calc(100% - 10px); /* Adjust width */
+    width: calc(100% - 40px); /* Adjust width */
     height: 60px; /* Adjusted height (40px * 1.5) */
     word-break: keep-all;
     font-size: 18px; /* Adjusted font size (12px * 1.5) */
