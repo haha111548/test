@@ -89,8 +89,8 @@ const modalStyles = `
 }
 .test-modal-content img {
   display: block;
-  max-width: 90vw; /* Limit the maximum width */
-  max-height: 90vh; /* Limit the maximum height */
+  width: 500px; /* Image width */
+  height: 500px;
   object-fit: contain;
   background-color: #4462f900;
 }
@@ -134,8 +134,8 @@ const modalStyles = `
     margin-top: 15%;
   }
   .test-modal-content img {
-    max-width: 80vw; /* Adjust max width for smaller screens */
-    max-height: 80vh; /* Adjust max height for smaller screens */
+    width: 300px;
+    height: 300px;
   }
   .test-modal-actions {
     padding: 5.4px 0; /* 70% of the original padding (18px * 0.3) */
