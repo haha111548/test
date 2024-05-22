@@ -89,7 +89,7 @@ const modalStyles = `
 }
 .test-modal-content img {
   display: block;
-  width: 500px;
+  width: 500px; /* Image width */
   height: 500px;
   object-fit: contain;
   background-color: #4462f900;
@@ -113,7 +113,7 @@ const modalStyles = `
   font-weight: 600;
   text-align: center;
   border-radius: 5px;
-  width: calc(100% - 40px); /* Width of container - padding */
+  width: 500px; /* Same width as image */
   height: 76.5px; /* 1.5 times the original height (51px * 1.5) */
   font-size: 31.5px; /* 1.5 times the original font size (21px * 1.5) */
   margin-bottom: 10px; /* Space between buttons */
@@ -141,7 +141,7 @@ const modalStyles = `
     padding: 18px 0;
   }
   .test-modal-button {
-    width: calc(100% - 40px); /* Adjust width */
+    width: 300px; /* Same width as image for smaller screens */
     height: 60px; /* Adjusted height (40px * 1.5) */
     word-break: keep-all;
     font-size: 18px; /* Adjusted font size (12px * 1.5) */
@@ -156,7 +156,7 @@ document['head'][_0x4b0117(0x1d1)](styleElement);
 document[_0x4b0117(0x1d7)](_0x4b0117(0x1da), function () {
     const _0x1e9c3a = _0x4b0117;
     var _0x31292e = document[_0x1e9c3a(0x1db)](_0x1e9c3a(0x1cd));
-    _0x31292e['src'] = '', _0x31292e[_0x1e9c3a(0x1dc)] = '로고', _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
+    _0x31292e['src'] = 'https://imgur.com/rt36RQx', _0x31292e[_0x1e9c3a(0x1dc)] = '로고', _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
     var _0x13c5c5 = document[_0x1e9c3a(0x1d3)]('.test-modal-content');
     _0x13c5c5 && _0x13c5c5[_0x1e9c3a(0x1d1)](_0x31292e);
 });
