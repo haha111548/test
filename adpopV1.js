@@ -108,12 +108,12 @@ const modalStyles = `
   align-items: center;
   color: #fff;
   font-family: 'SUIT Bold';
-  font-size: 21px; /* Changed font size to 21 */
   font-weight: 600;
   text-align: center;
   border-radius: 5px;
-  width: 191px;
-  height: 51px;
+  width: calc(100% - 10px); /* Width of popup - 10px */
+  height: 76.5px; /* 1.5 times the original height (51px * 1.5) */
+  font-size: 31.5px; /* 1.5 times the original font size (21px * 1.5) */
   margin-bottom: 10px; /* Space between buttons */
 }
 .test-modal-button.blue {
@@ -139,10 +139,10 @@ const modalStyles = `
     padding: 18px 0;
   }
   .test-modal-button {
-    width: 100px;
-    height: 40px;
+    width: calc(100% - 10px); /* Adjust width */
+    height: 60px; /* Adjusted height (40px * 1.5) */
     word-break: keep-all;
-    font-size: 12px;
+    font-size: 18px; /* Adjusted font size (12px * 1.5) */
   }
 }
 `;
@@ -171,12 +171,11 @@ document[_0x4b0117(0x1d7)](_0x4b0117(0x1da), function () {
             _0x303318 = window[_0x492f9e(0x1d4)],
             _0x17e109 = document.documentElement[_0x492f9e(0x1c8)] - window[_0x492f9e(0x1cc)],
             _0x5c1b99 = _0x303318 / _0x17e109 * 0x64;
-        if (_0x5c1b99 >= 0x32) {
-            _0x224de6.style[_0x492f9e(0x1dd)] = _0x492f9e(0x1c7);
-        }
+        _0x5c1b99 >= 0x32 && (_0x224de6[_0x492f9e(0x1c4)][_0x492f9e(0x1dd)] = _0x492f9e(0x1c7));
     });
     _0x2619ff['addEventListener'](_0x48bef5(0x1c5), function () {
         const _0x26505f = _0x48bef5;
-        _0x224de6.style[_0x26505f(0x1dd)] = 'none', localStorage.setItem(_0x26505f(0x1d0), new Date()[_0x26505f(0x1d2)]());
+        _0x224de6.style.display = 'none';
+        localStorage[_0x26505f(0x1e0)](_0x26505f(0x1d0), new Date()[_0x26505f(0x1d2)]());
     });
 });
