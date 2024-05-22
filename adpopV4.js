@@ -113,7 +113,7 @@ const modalStyles = `
   font-weight: 600;
   text-align: center;
   border-radius: 5px;
-  width: 500px; /* Same width as image */
+  width: 450px; /* 90% of the image width */
   height: 76.5px; /* 1.5 times the original height (51px * 1.5) */
   font-size: 31.5px; /* 1.5 times the original font size (21px * 1.5) */
   margin-bottom: 10px; /* Space between buttons */
@@ -141,7 +141,7 @@ const modalStyles = `
     padding: 18px 0;
   }
   .test-modal-button {
-    width: 300px; /* Same width as image for smaller screens */
+    width: 270px; /* 90% of the image width for smaller screens */
     height: 60px; /* Adjusted height (40px * 1.5) */
     word-break: keep-all;
     font-size: 18px; /* Adjusted font size (12px * 1.5) */
