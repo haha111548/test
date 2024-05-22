@@ -92,14 +92,14 @@ const modalStyles = `
   width: 500px; /* Image width */
   height: 500px;
   object-fit: contain;
-  background-color: #4462f900;
+  background-color: white; /* Change to a non-transparent color */
 }
 .test-modal-actions {
   display: flex;
   flex-direction: column; /* Align buttons vertically */
   justify-content: center;
   align-items: center;
-  padding: 36px 0;
+  padding: 18px 0; /* Reduced padding by 50% */
   column-gap: 15px;
   background-color: white;
 }
@@ -138,7 +138,7 @@ const modalStyles = `
     height: 300px;
   }
   .test-modal-actions {
-    padding: 18px 0;
+    padding: 9px 0; /* Reduced padding by 50% for smaller screens */
   }
   .test-modal-button {
     width: 270px; /* 90% of the image width for smaller screens */
@@ -156,7 +156,9 @@ document['head'][_0x4b0117(0x1d1)](styleElement);
 document[_0x4b0117(0x1d7)](_0x4b0117(0x1da), function () {
     const _0x1e9c3a = _0x4b0117;
     var _0x31292e = document[_0x1e9c3a(0x1db)](_0x1e9c3a(0x1cd));
-    _0x31292e['src'] = 'https://imgur.com/rt36RQx.png', _0x31292e[_0x1e9c3a(0x1dc)] = '로고', _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
+    _0x31292e['src'] = 'https://imgur.com/rt36RQx.png'; // 로고 이미지 URL을 설정
+    _0x31292e[_0x1e9c3a(0x1dc)] = '로고';
+    _0x31292e[_0x1e9c3a(0x1e5)] = _0x1e9c3a(0x1c9);
     var _0x13c5c5 = document[_0x1e9c3a(0x1d3)]('.test-modal-content');
     _0x13c5c5 && _0x13c5c5[_0x1e9c3a(0x1d1)](_0x31292e);
 });
